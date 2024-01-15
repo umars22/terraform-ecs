@@ -1,0 +1,3 @@
+key="ec2/default.tfstate"
+bucket="my-terraform-backend-bruh"
+region="us-east-1"
