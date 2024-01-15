@@ -11,8 +11,8 @@ data "terraform_remote_state" "infrastructure" {
 
   config = {
     region = "us-east-1"
-    bucket = "my-terraform-backend-bruh"
-    key    = "key/default.tfstate"
+    bucket = "bucket name"
+    key    = "key/default.tfstate"              #this will get the tf state for other resources that we created in different dirs
   }
 }
 
